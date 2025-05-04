@@ -12,38 +12,38 @@ const Solutions = () => {
         
         <Card className="border-none shadow-lg bg-gradient-to-br from-purple-50 to-white">
           <CardHeader>
-            <CardTitle className="text-2xl text-purple-800">Гармонизаторы пространства: защита вашего жизненного поля</CardTitle>
+            <CardTitle className="text-2xl text-purple-800">Гармонизаторы пространства: ваша защита от вредных излучений</CardTitle>
             <CardDescription className="text-gray-600 text-lg">
-              Эффективная защита от геопатогенных и техногенных излучений
+              Инновационная технология нейтрализации геопатогенных и техногенных воздействий
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6 text-gray-700">
             <div className="bg-purple-100 rounded-lg p-5 border-l-4 border-purple-600">
-              <h2 className="text-xl font-semibold text-purple-800 mb-3">Почему гармонизаторы — идеальное решение?</h2>
+              <h2 className="text-xl font-semibold text-purple-800 mb-3">Почему именно гармонизаторы?</h2>
               <p className="mb-4">
-                Наиболее оптимальным решением блокировки воздействия геопатогенных и техногенных зон на организм человека 
-                является использование гармонизирующих приборов. Гармонизатор восстанавливает окружающую среду до состояния 
-                биосовместимости с организмом человека, избавляя вас от необходимости менять расположение мебели или 
-                переезжать — негативные зоны нейтрализуются автоматически.
+                Гармонизирующие приборы — наиболее оптимальное решение для блокировки воздействия геопатогенных и техногенных зон. 
+                Они восстанавливают окружающую среду до состояния полной биосовместимости с организмом человека, 
+                избавляя вас от необходимости подстраиваться под местоположение источников излучения — негативные зоны 
+                нейтрализуются автоматически.
               </p>
             </div>
 
             <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm border border-purple-100">
-              <Icon name="Info" className="text-purple-700 h-9 w-9 flex-shrink-0" />
+              <Icon name="Shield" className="text-purple-700 h-9 w-9 flex-shrink-0" />
               <p className="font-medium">
-                <span className="text-purple-800 font-semibold">Гармонизатор пространства</span> — это прибор в форме предмета 
-                или плоской информационной структуры, который воздействует на геопатогенное и техногенное излучение в 
-                определенном радиусе, преобразуя его в природное, биосовместимое с человеческим организмом.
+                <span className="text-purple-800 font-semibold">Гармонизатор пространства</span> — прибор в форме предмета 
+                или плоской информационной структуры, который воздействует на геопатогенное и техногенное излучение 
+                в заданном радиусе, преобразуя его в природное, полностью биосовместимое с человеческим организмом.
               </p>
             </div>
 
-            <p className="italic">
-              Исследование рынка показывает широкий спектр предложений гармонизаторов как на русскоязычных, 
-              так и на англоязычных сайтах. В ожидании появления единой классификации мы предлагаем обзор основных 
-              видов гармонизаторов, представленных сегодня.
+            <p className="italic text-gray-600">
+              На сегодняшний день рынок предлагает широкий спектр гармонизаторов как на русскоязычных, так и на 
+              англоязычных сайтах. В ожидании появления единой общепринятой классификации, мы предлагаем обзор основных типов 
+              гармонизаторов, представленных сегодня.
             </p>
 
-            <h2 className="text-xl font-semibold text-purple-800 mt-8">Многообразие гармонизаторов</h2>
+            <h2 className="text-xl font-semibold text-purple-800 mt-8">Виды гармонизаторов</h2>
             
             <div className="grid md:grid-cols-2 gap-5 mt-4">
               <div className="p-5 bg-white rounded-lg shadow-sm border border-purple-100 hover:shadow-md transition-shadow">
@@ -83,15 +83,15 @@ const Solutions = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600 font-bold">•</span>
-                    <span><span className="font-medium">Нейтрализующие</span> — снижают излучения до безопасного уровня</span>
+                    <span><span className="font-medium">Нейтрализующие</span> — снижают излучения до неопасного для человека уровня</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600 font-bold">•</span>
                     <span><span className="font-medium">Усиливающие</span> — повышают сопротивляемость организма к вредным излучениям</span>
                   </li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-2 italic">
-                  Второй тип часто относят к медицинским приборам, хотя они представлены в интернете как гармонизаторы
+                <p className="text-sm text-gray-600 mt-2 italic">
+                  Приборы второго типа часто относят к медицинским, хотя в интернете они представлены как гармонизаторы пространства
                 </p>
               </div>
               
@@ -100,7 +100,7 @@ const Solutions = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600 font-bold">•</span>
-                    <span>Использующие электрическую энергию</span>
+                    <span>Использующие электрическую энергию для работы</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600 font-bold">•</span>
@@ -124,7 +124,7 @@ const Solutions = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600 font-bold">•</span>
-                    <span>Радиальные — воздействующие на все источники в определенном радиусе</span>
+                    <span>Радиальные — воздействующие на все источники в определенном радиусе от прибора</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600 font-bold">•</span>
@@ -145,28 +145,28 @@ const Solutions = () => {
                     <span>Не влияющие на структуру воды</span>
                   </li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-2">
+                <p className="text-sm text-gray-600 mt-2">
                   Важно учитывать качество структуризации и время, необходимое для этого процесса
                 </p>
               </div>
             </div>
 
             <div className="bg-purple-100 p-5 rounded-lg mt-6">
-              <h3 className="font-semibold text-purple-800 mb-2">Эффективность и оценка</h3>
+              <h3 className="font-semibold text-purple-800 mb-2">Оценка эффективности</h3>
               <p className="mb-3">
-                Гармонизаторы различаются по степени воздействия на излучения и эффективности нейтрализации. 
-                В настоящее время отсутствуют стандартизированные методы измерения качества работы гармонизаторов, 
+                Гармонизаторы различаются по степени воздействия и эффективности нейтрализации излучений. 
+                На данный момент отсутствуют стандартизированные методы измерения качества работы этих приборов, 
                 что делает оценку относительной.
               </p>
               <p className="italic">
-                Перспективный метод оценки эффективности гармонизаторов — анализ степени воздействия на 
-                структуризацию воды в радиусе действия приборов за определенное время работы.
+                Перспективным методом оценки эффективности гармонизаторов может стать анализ степени воздействия 
+                на структуризацию воды в радиусе действия прибора за определенное время работы.
               </p>
             </div>
           </CardContent>
           <CardFooter className="flex justify-center pt-4 pb-6">
-            <Button className="bg-purple-700 hover:bg-purple-800 px-6 py-6">
-              <Link to="/contact" className="text-white text-lg">Получить консультацию специалиста</Link>
+            <Button className="bg-purple-700 hover:bg-purple-800 px-6 py-5">
+              <Link to="/contact" className="text-white text-lg">Подобрать гармонизатор для вашего пространства</Link>
             </Button>
           </CardFooter>
         </Card>
